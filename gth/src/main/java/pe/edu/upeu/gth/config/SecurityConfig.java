@@ -25,5 +25,5 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
 	public CustomAuthenticationProvider authenticationProvider() {
 		CustomAuthenticationProvider authProvider = new CustomAuthenticationProvider();
 	    return authProvider;
-	}
+	} 
 }
